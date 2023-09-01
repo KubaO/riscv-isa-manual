@@ -39,6 +39,8 @@ implemented.
 * Clarified semantics of explicit accesses to CSRs wider than XLEN bits.
 * Clarified that MXLEN&#8805;SXLEN, and added the constraint that
 SXLEN&#8805;UXLEN.
+* Clarified that, for a given exception cause, `__x__tval` might sometimes
+be set to a nonzero value but sometimes not.
 
 [.big]*_Preface to Version 20211203_*
 
